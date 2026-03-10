@@ -1,4 +1,4 @@
-# Woocommerce Product Lister & Inventory Update System
+# Woocommerce Product Lister
 
 An automated solution to scrape product data from supplier websites and list them on a WooCommerce store. This system streamlines the process of extracting complex product details, including variations, attributes, and high-quality images.
 

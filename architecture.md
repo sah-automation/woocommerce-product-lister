@@ -1,4 +1,4 @@
-# WooCommerce Product Lister & Inventory Update System
+# WooCommerce Product Lister
 
 This document outlines the technical architecture, data flow, and legal compliance for the LuxeDecor to WooCommerce automation system.
 
@@ -57,3 +57,4 @@ graph TD
 2.  **Run Scraper:** Execute the workflow to generate the `LuxeDecor2Woo-listing-data.csv`.
 3.  **Configure API:** Update the `consumer_key` and `consumer_secret` in the Jupyter Notebook.
 4.  **Execute Listing:** Run the notebook cells to upload products to your WooCommerce store.
+

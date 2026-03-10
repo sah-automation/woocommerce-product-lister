@@ -11,7 +11,7 @@ This project provides an automated pipeline to extract furniture product data fr
 graph TD
     A[LuxeDecor Website] -->|Browser Automation| B(Automa Scraper)
     B -->|Structured Extraction| C[data/LuxeDecor2Woo-listing-data.csv]
-    C -->|Input| D(Jupyter Notebook / Python)
+    C -->|Input| D(Google Colab Notebook / Python)
     D -->|WooCommerce REST API| E[WooCommerce Store]
     
     subgraph "Data Extraction Layer"
@@ -57,4 +57,5 @@ graph TD
 2.  **Run Scraper:** Execute the workflow to generate the `LuxeDecor2Woo-listing-data.csv`.
 3.  **Configure API:** Update the `consumer_key` and `consumer_secret` in the Jupyter Notebook.
 4.  **Execute Listing:** Run the notebook cells to upload products to your WooCommerce store.
+
 
